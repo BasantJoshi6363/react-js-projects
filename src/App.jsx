@@ -2,6 +2,7 @@ import React from 'react'
 import BgChanger from './bg_changer/Bg_Changer'
 import "./index.css"
 import LearnProps from './learnProps/LearnProps'
+import LearnUseState from './LearnUseState/LearnUseState'
 
 const App = () => {
   const info = {
@@ -14,7 +15,8 @@ const App = () => {
     <div >
       <div className='main'>
         {/* <BgChanger /> */}
-        <LearnProps info={info} />
+        {/* <LearnProps info={info} /> */}
+        <LearnUseState/>
 
       </div>
     </div>
