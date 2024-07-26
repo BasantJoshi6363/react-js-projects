@@ -17,8 +17,9 @@ const App = () => {
       <div className='main'>
         {/* <BgChanger /> */}
         {/* <LearnProps info={info} /> */}
-        {/* <LearnUseState/> */}
-        <DarkMode />
+        <LearnUseState/>
+        {/* <DarkMode /> */}
+
 
       </div>
     </div>
