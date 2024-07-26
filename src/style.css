@@ -1,7 +1,11 @@
 button{
     display: block;
     margin: 10px 0;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     color: blue;
     outline: none;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
